@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "Vitalia CE FPE",
+  "description": "Counts CE and FPE on vitalia web page",
+  "version": "0.1",
+  "content_scripts": [
+      {
+          "matches": ["http://vitalia.pl/*","https://vitalia.pl/*"],
+          "js": ["vitalia_ce.js"]
+      }
+  ]
+}
