@@ -54,7 +54,7 @@ function add_ce_to_meals() {
             fpe = count_fpe(fat, protein, 8);
         }
         // append data to a page
-        data_p.innerHTML = data_p.innerHTML + "<b></br></br>WW: " + ce + "</br>WBT: " + fpe + "</br></b>";
+        data_p.innerHTML = data_p.innerHTML + "<b></br></br>WW: " + ce + " j. </br>WBT: " + fpe + " j. </br></b>";
     } 
 }
 
